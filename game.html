@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Game Platform</title>
+</head>
+
+<body>
+
+<h2>Game Platform Data</h2>
+
+<script>
+
+let games = ["cricket","football","hockey","tennis"];
+
+games.forEach(function(game){
+ console.log(game);
+});
+
+let newGames = games.map(function(game){
+ return "Game : " + game;
+});
+
+console.log(newGames);
+
+</script>
+
+</body>
+</html>
