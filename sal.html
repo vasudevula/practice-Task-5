@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Salary Report Generator</title>
+</head>
+
+<body>
+
+<h2>Salary Report</h2>
+
+<script>
+
+let salaries = [10000,20000,30000,40000];
+
+// Total salary
+let totalSalary = salaries.reduce(function(sum, salary){
+ return sum + salary;
+},0);
+
+console.log("Total Salary:", totalSalary);
+
+// Average salary
+let averageSalary = totalSalary / salaries.length;
+
+console.log("Average Salary:", averageSalary);
+
+</script>
+
+</body>
+</html>
